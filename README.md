@@ -36,7 +36,7 @@ END
 ### Topology
 Initial configuration:
 
-![Topology 1](https://github.com/andy30sh/Routing/blob/main/Topology1.png)
+![Topology 1](https://github.com/andy30sh/Routing/blob/main/Topology2.png)
 
 Updated configuration
 
