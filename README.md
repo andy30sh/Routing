@@ -1,8 +1,9 @@
-#**Routing Algorithm**
-1. Distance Vector (DV)
-2. Distance Vector with Split Horizon (SP) 
+# **Routing Algorithm**
+### 1. Distance Vector (DV)
+### 2. Distance Vector with Split Horizon (SP) 
 
-##**Part 1 (DV algorithm)**
+
+## **Part 1 (DV algorithm)**
 
 Produce a program in C++ that:
 Reads information about a topology/updates to the topology from the standard input.
@@ -12,12 +13,12 @@ Uses DV algorithm or DV with SH algorithm, as appropriate, to bring the simulate
 Repeats the above steps until no further input is provided.
 The DV algorithm program named DistanceVector.
 
-##**Part 2 (DV with SH algorithm)**
+## **Part 2 (DV with SH algorithm)**
 
 Modify a second version of the program that uses Split Horizon.
 The DV with SH algorithm program named SplitHorizon.
 
-##**Sample Input**
+## **Sample Input**
 ```
 X
 Y
@@ -35,11 +36,11 @@ END
 ### Topology
 Initial configuration:
 
-![Topology 1](https://github.com/andy30sh/DistanceVectorRouting/Topology1.png)
+![Topology 1](https://github.com/andy30sh/Routing/blob/main/Topology1.png)
 
 Updated configuration
 
-![Topology 1](https://github.com/andy30sh/DistanceVectorRouting/Topology2.png)
+![Topology 1](https://github.com/andy30sh/Routing/blob/main/Topology1.png)
 
 ### Input explanation
 The input begins with the name of each router/node in the topology.
@@ -71,7 +72,7 @@ The input continues with the update details of each link/edge in the topology gi
     If there is input in the "UPDATE" section, your implementation should run when the keyword "END" is inputted and bring your simulated routers' routing tables and distance tables to convergence. Then, show the Expected Output for each router. After that, the program exits normally.
     If there is no input in the "UPDATE" section, the program exits normally when the keyword "END" is inputted.
 
-##**Sample Output**
+## **Sample Output**
 ```
 X Distance Table at t=0
      Y    Z    
